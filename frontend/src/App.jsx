@@ -6,7 +6,7 @@ const catalogItems = [
     id: 0,
     name: 'לק ג\'ל',
     price: '140 ש"ח',
-    image: '/images/nails4.jpeg',
+    image: '/images/nails5.jpeg',
     description: 'לק ג\'ל מקצועי ואיכותי'
   },
   {
@@ -83,13 +83,13 @@ function App() {
          
           <div className="gallery-grid">
             <div className="gallery-item" onClick={() => setSelectedGalleryImage('/images/nail manger.jpeg')}>
-              <img src="/images/nail manger.jpeg" alt="מנהלת הסלון" className="gallery-image" />
+              <img src="/images/nail manger.jpeg" alt="מנהלת הסלון" className="gallery-image gallery-image-top" />
             </div>
             <div className="gallery-item" onClick={() => setSelectedGalleryImage('/images/store1.jpeg')}>
-              <img src="/images/store1.jpeg" alt="הסלון" className="gallery-image" />
+              <img src="/images/store1.jpeg" alt="הסלון" className="gallery-image gallery-image-top" />
             </div>
             <div className="gallery-item" onClick={() => setSelectedGalleryImage('/images/store2.jpeg')}>
-              <img src="/images/store2.jpeg" alt="הסלון" className="gallery-image" />
+              <img src="/images/store2.jpeg" alt="הסלון" className="gallery-image gallery-image-top" />
             </div>
             
           </div>
