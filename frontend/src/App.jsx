@@ -6,7 +6,7 @@ const catalogItems = [
     id: 0,
     name: 'לק ג\'ל',
     price: '140 ש"ח',
-    image: '/images/nails5.jpeg',
+    image: '/images/nails3.jpeg',
     description: 'לק ג\'ל מקצועי ואיכותי'
   },
   {
